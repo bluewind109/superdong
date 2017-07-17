@@ -1,0 +1,56 @@
+.navbar-nav {
+    display:table;
+    width:100%;
+    margin: 0;
+    opacity: 0.5;
+    /*position: absolute;*/
+    background-color: lightblue;
+}
+
+.navbar-nav > li {
+    float:none;
+    display:table-cell;
+    text-align:center;
+}
+
+.nav-item {
+  color: white;
+}
+
+.navbar-default.nav-upper {
+  height: 50px;
+}
+
+.navbar-default.nav-upper ul {
+  display: table;
+}
+
+.navbar.nav-upper .navbar-upper > li {
+  display: table-cell;
+  font-size: 14px;
+}
+
+.navbar.nav-upper .navbar-upper > li > a {
+  color: #777;
+}
+
+.navbar.nav-lower .navbar-lower {
+  font-size: 30px;
+}
+
+.navbar.nav-footer .navbar-footer {
+  font-size: 25px;
+}
+
+.navbar-logo {
+  background-image: url('https://lh3.googleusercontent.com/-tw5LsU4Fg28/Umo6BBcoCnI/AAAAAAAAmjE/1iqULsem06E/w896-h896/heisencat.png');
+  width: 90px;
+  height: 90px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  z-index: 1051;
+}
