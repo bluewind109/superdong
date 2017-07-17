@@ -111,11 +111,11 @@
     </div> <!-- end SLIDER -->
     <!--meta slider-->            <!-- /SLIDE -->
 
-    <div class="row"> <!-- footer -->
-      <nav class="navbar navbar-default navbar-static-top nav-footer">
+    <div class="row"> <!-- LOCATION navbar -->
+      <nav class="navbar navbar-default navbar-static-top nav-location">
         <div class="container-fluid">
-          <div class="collapse navbar-collapse navbar-footer" id="navbar">
-            <ul class="nav navbar-nav">
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav navbar-location">
               <li class="nav-item"><a href="#">Sóc Trăng</a>
               </li>
               <li class="nav-item"><a href="#">Côn Đảo</a>
@@ -132,7 +132,7 @@
           </div>
         </div>
       </nav>
-    </div> <!-- end footer -->
+    </div> <!-- end LOCATION navbar -->
 </div> <!-- end container -->
 
   <!-- JQUERY-->
