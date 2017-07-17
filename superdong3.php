@@ -18,6 +18,7 @@
 </head>
 <body>
 <div class="container">
+
   <div class="row"> <!-- HEADER -->
     <div class="col-sm-1"> <!-- LOGO -->
       <a class="navbar-logo" href="#"></a>
@@ -70,14 +71,17 @@
     </div>  <!-- end NAVBAR -->
   </div> <!-- end HEADER -->
 
-    <div class="row">
+    <div class="row"> <!-- SLIDER -->
       <div class="carousel slide" data-ride="carousel" id="carousel">
+
+        <!-- Indicators -->
         <ol class="carousel-indicators">
           <li data-target="#carousel" data-slide-to="0" class="active"></li>
           <li data-target="#carousel" data-slide-to="1"></li>
           <li data-target="#carousel" data-slide-to="2"></li>
         </ol>
 
+        <!-- Wrapper for slides -->
         <div class="carousel-inner">
 
           <div class="item active">
@@ -92,9 +96,20 @@
             <img src="http://superdong.com.vn/wp-content/uploads/2017/06/superdong-banner02-2-1366x630.jpg" alt ="">
           </div>
 
-        </div>
+        </div> <!-- end Wrapper -->
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#carousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
       </div>
-    </div>
+    </div> <!-- end SLIDER -->
   
 
     <div class="row"> <!-- LOCATION navbar -->
