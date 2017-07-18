@@ -20,7 +20,7 @@
 <div class="container">
 
   <div class="row"> <!-- HEADER -->
-    <div class="col-md-1 hidden-sm hidden-xm"> <!-- LOGO -->
+    <div class="col-md-1 hidden-sm hidden-xs"> <!-- LOGO -->
       <a class="navbar-logo" href="#"></a>
     </div>
 
@@ -129,7 +129,20 @@
 
       </div>
     </div> <!-- end SLIDER -->
-  
+    
+    <div class="row"> <!-- LOCATION btn group -->
+      <div class="btn-group btn-group-lg">
+        <button type="button" class="btn btn-primary">Sóc Trăng</button>
+        <button type="button" class="btn btn-primary">Côn Đảo</button>
+      </div>
+
+      <div class="btn-group btn-group-lg">
+        <button type="button" class="btn btn-primary">Nam Du</button>
+        <button type="button" class="btn btn-primary">Rạch Giá</button>
+        <button type="button" class="btn btn-primary">Phú Quốc</button>
+        <button type="button" class="btn btn-primary">Hà Tiên</button>
+      </div>
+    </div>
 
     <div class="row"> <!-- LOCATION navbar -->
       <nav class="navbar navbar-default navbar-static-top nav-location">

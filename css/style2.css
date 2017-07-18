@@ -3,26 +3,30 @@
 }
 
 .navbar-nav {
-    display:table;
-    width:100%;
-    margin: 0;
-    /*position: absolute;*/
+  display:table;
+  width:100%;
+  margin: 0;
+  /*position: absolute;*/
     
 }
 
+.btn.btn-primary {
+
+}
+
 .navbar-nav > li {
-    float:none;
-    display:table-cell;
-    text-align:center;
+  float:none;
+  display:table-cell;
+  text-align:center;
 }
 
 .navbar-default.nav-upper {
-  height: 50px;
   width: 100%;
 }
 
 .navbar-default.nav-upper ul {
   display: table;
+  width:100%;
 }  
 
 .navbar-default.nav-upper .navbar-upper > li > a {
