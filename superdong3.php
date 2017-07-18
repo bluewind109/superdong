@@ -8,9 +8,9 @@
   <title>superdong</title>
 
   <!-- LIBRARIES CSS -->
-  <link href=".\css\bootstrap.min.css" rel="stylesheet">
-  <link href=".\css\bootstrap-theme.min.css" rel="stylesheet">
-  <link href=".\css\style2.css" rel="stylesheet">
+  <link href=".\css\bootstrap.css" rel="stylesheet">
+  <link href=".\css\bootstrap-theme.css" rel="stylesheet">
+  <link href=".\css\style2.css" rel="stylesheet" type="text/css">
   
   <!-- FONTS -->
  
@@ -20,29 +20,36 @@
 <div class="container">
 
   <div class="row"> <!-- HEADER -->
-    <div class="col-sm-1"> <!-- LOGO -->
+    <div class="col-md-1 hidden-sm hidden-xm"> <!-- LOGO -->
       <a class="navbar-logo" href="#"></a>
     </div>
 
-    <div class="col-sm-11"> <!-- NAVBAR -->
+    <div class="col-md-11 col-xm-12 col-sm-12"> <!-- NAVBAR -->
       <div class="row">
         <nav class="navbar-default nav-upper navbar-static-top">
           <div class="container-fluid">
             <ul class="nav navbar-nav navbar-upper">
               <li class="nav-item"><a class="active" href="#">Trang chủ</a>
               </li>
+
               <li class="nav-item"><a href="#">Công ty</a>
               </li>
+
               <li class="nav-item"><a href="#">Cẩm nang du lịch</a>
               </li>
+
               <li class="nav-item"><a href="#">Tuyển dụng</a>
               </li>
+
               <li class="nav-item"><a href="#">Hình ảnh</a>
               </li>
+
               <li class="nav-item"><a href="#">Liên hệ</a>
               </li>
+
               <li class="nav-item"><a href="#"><img src="http://superdong.com.vn/wp-content/themes/pl_superdong/img/eng_lg.png" alt="" /></a>
               </li>
+
               <li class="nav-item"><a href="#"><img src="http://superdong.com.vn/wp-content/themes/pl_superdong/img/vi_lg.png" alt="" style="padding-left: 5px;" /></a>
               </li>
             </ul>
@@ -50,17 +57,29 @@
         </nav>
       </div> <!--end menu 1 -->
 
-      <div class="row">
+      <div class="row"> <!-- menu 2 -->
         <nav class="navbar navbar-default navbar-static-top nav-lower">
           <div class="container-fluid">
+
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"> <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
             <div class="collapse navbar-collapse" id="navbar">
               <ul class="nav navbar-nav navbar-lower">
                 <li class="nav-item"><a href="#">DỊCH VỤ</a>
                 </li>
+
                 <li class="nav-item"><a href="#">HỆ THỐNG BÁN VÉ</a>
                 </li>
+
                 <li class="nav-item"><a href="#">QUAN HỆ CỔ ĐÔNG</a>
                 </li>
+
                 <li class="nav-item"><a href="#">TIN TỨC</a>
                 </li>
               </ul>
@@ -119,14 +138,19 @@
             <ul class="nav navbar-nav navbar-location">
               <li class="nav-item"><a href="#">Sóc Trăng</a>
               </li>
+
               <li class="nav-item"><a href="#">Côn Đảo</a>
               </li>
-              <li class="nav-item"><a href="#">Rạch Giá</a>
-              </li>
-              <li class="nav-item"><a href="#">Phú Quốc</a>
-              </li>
+
               <li class="nav-item"><a href="#">Nam Du</a>
               </li>
+
+              <li class="nav-item"><a href="#">Rạch Giá</a>
+              </li>
+
+              <li class="nav-item"><a href="#">Phú Quốc</a>
+              </li>
+
               <li class="nav-item"><a href="#">Hà Tiên</a>
               </li>
             </ul>

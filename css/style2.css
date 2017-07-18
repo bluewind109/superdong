@@ -1,5 +1,5 @@
 .navbar-default {
-  background: rgba(58, 77, 180, 0.3);
+  background : rgb(0, 0 , 150);
 }
 
 .navbar-nav {
@@ -7,6 +7,7 @@
     width:100%;
     margin: 0;
     /*position: absolute;*/
+    
 }
 
 .navbar-nav > li {
@@ -17,6 +18,7 @@
 
 .navbar-default.nav-upper {
   height: 50px;
+  width: 100%;
 }
 
 .navbar-default.nav-upper ul {
@@ -46,6 +48,10 @@
   color: #ffcb08;
 }
 
+.navbar-default.nav-upper .navbar-upper > li > a:focus {
+  color: #ffcb08;
+}
+
 .navbar-default.nav-lower .navbar-lower > li > a:hover {
   color: #ffcb08;
 }
@@ -54,17 +60,14 @@
   color: #ffcb08;
 }
 
-
-
 .navbar-logo {
-  background-image: url('https://lh3.googleusercontent.com/-tw5LsU4Fg28/Umo6BBcoCnI/AAAAAAAAmjE/1iqULsem06E/w896-h896/heisencat.png');
+  background: url('http://images1.cafef.vn/Images/Uploaded/DuLieuDownload/logodn/SKG.jpg') no-repeat center center;
   width: 90px;
   height: 90px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-size: 100%;
   position: absolute;
   top: 5px;
-  left: 1px;
+  left: 0px;
   z-index: 1051;
 }
+
