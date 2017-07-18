@@ -1,77 +1,89 @@
-.navbar-default {
-  background : rgb(0, 0 , 150);
+#main {
+  position: relative;
+  min-height: 500px;
+  height: auto;
+  width: 90%;
+  margin: auto;
 }
 
-.navbar-nav {
-  display:table;
-  width:100%;
-  margin: 0;
-  /*position: absolute;*/
-    
-}
-
-.btn.btn-primary {
-
-}
-
-.navbar-nav > li {
-  float:none;
-  display:table-cell;
-  text-align:center;
-}
-
-.navbar-default.nav-upper {
+#header {
+  position: absolute;
+  background-image: url('http://superdong.com.vn/wp-content/themes/pl_superdong/img/bg_mmenu.png');
+  background-repeat: repeat-x;
   width: 100%;
+  z-index: 1;
 }
 
-.navbar-default.nav-upper ul {
-  display: table;
-  width:100%;
-}  
 
-.navbar-default.nav-upper .navbar-upper > li > a {
-  font-size: 14px;
+#slider {
+  position: relative;
+  z-index: 0;
+}
+
+.navbar {
+  background: transparent;
+  border: none;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.btn-group .btn {
+  background-color: transparent;
+}
+
+.btn.btn-primary:hover {
+  color: #ffcb08;
+}
+
+.navbar .nav > li > a {
   color: #fff;
 }
 
-.navbar-default.nav-lower .navbar-lower > li > a {
-  color: #fff;
-  font-size: 30px;
+.navbar .nav > li > a:hover {
+  color: #ffcb08;
 }
 
-.navbar-default.nav-location .navbar-location {
+.navbar .nav > li > a:focus {
+  color: #ffcb08;
+}
+
+.nav > li > a {
+    transition: all ease 0.5s;
+}
+
+.nav > li {
+  padding: 5px;
+  width: auto;
+}
+
+#upper {
+  margin-left: 10%;
+  font-size: 15px;
+}
+
+#lower {
+  font-family: 'LibelKT';
+  font-size: 25px;
+  margin-left: 5%;
+}
+
+#footer {
   position: absolute;
   font-size: 20px;
+  bottom: 0;
+  z-index: 1;
 }
 
-.navbar-default.nav-location .navbar-location > li > a {
-  color: #fff;
-}
+/*FOOTER bg
+http://superdong.com.vn/wp-content/themes/pl_superdong/img/bt_bg.png
+*/
 
-.navbar-default.nav-upper .navbar-upper > li > a:hover {
-  color: #ffcb08;
-}
+/*LOGO
+http://superdong.com.vn/wp-content/themes/pl_superdong/img/logo.png
+*/
 
-.navbar-default.nav-upper .navbar-upper > li > a:focus {
-  color: #ffcb08;
-}
-
-.navbar-default.nav-lower .navbar-lower > li > a:hover {
-  color: #ffcb08;
-}
-
-.navbar-default.nav-location .navbar-location > li > a:hover {
-  color: #ffcb08;
-}
-
-.navbar-logo {
-  background: url('http://images1.cafef.vn/Images/Uploaded/DuLieuDownload/logodn/SKG.jpg') no-repeat center center;
-  width: 90px;
-  height: 90px;
-  background-size: 100%;
-  position: absolute;
-  top: 5px;
-  left: 0px;
-  z-index: 1051;
-}
+/*HEADER bg
+http://superdong.com.vn/wp-content/themes/pl_superdong/img/bg_mmenu.png
+*/
 

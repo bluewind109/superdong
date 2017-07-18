@@ -14,55 +14,61 @@
   
   <!-- FONTS -->
  
-
 </head>
 <body>
-<div class="container">
+<div class="container-fluid" id="main">
+  
+  <!-- HEADER -->
+  <div class="row" id="header"> 
 
-  <div class="row"> <!-- HEADER -->
-    <div class="col-md-1 hidden-sm hidden-xs"> <!-- LOGO -->
-      <a class="navbar-logo" href="#"></a>
+    <!-- LOGO -->
+    <div class="hidden-sm hidden-xs col-md-3 col-lg-3" style="padding-left:0px;" id="logo">
+      <img src="http://superdong.com.vn/wp-content/themes/pl_superdong/img/logo.png" style="width: 140%;height: 150%;"/>
     </div>
 
-    <div class="col-md-11 col-xm-12 col-sm-12"> <!-- NAVBAR -->
-      <div class="row">
-        <nav class="navbar-default nav-upper navbar-static-top">
-          <div class="container-fluid">
-            <ul class="nav navbar-nav navbar-upper">
-              <li class="nav-item"><a class="active" href="#">Trang chủ</a>
+    <!-- NAVBAR -->
+    <div class="col-xm-12 col-sm-12 col-md-9 col-lg-9"> 
+
+      <!-- upper NAVBAR -->
+      <div class="row" id="upper">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid" style="width: 100%;">
+            <ul class="nav navbar-nav">
+              <li><a class="active" href="#">Trang chủ</a>
               </li>
 
-              <li class="nav-item"><a href="#">Công ty</a>
+              <li><a href="#">Công ty</a>
               </li>
 
-              <li class="nav-item"><a href="#">Cẩm nang du lịch</a>
+              <li><a href="#">Cẩm nang du lịch</a>
               </li>
 
-              <li class="nav-item"><a href="#">Tuyển dụng</a>
+              <li><a href="#">Tuyển dụng</a>
               </li>
 
-              <li class="nav-item"><a href="#">Hình ảnh</a>
+              <li><a href="#">Hình ảnh</a>
               </li>
 
-              <li class="nav-item"><a href="#">Liên hệ</a>
+              <li><a href="#">Liên hệ</a>
               </li>
 
-              <li class="nav-item"><a href="#"><img src="http://superdong.com.vn/wp-content/themes/pl_superdong/img/eng_lg.png" alt="" /></a>
+              <li><a href="#"><img src="http://superdong.com.vn/wp-content/themes/pl_superdong/img/eng_lg.png" alt="" /></a>
               </li>
 
-              <li class="nav-item"><a href="#"><img src="http://superdong.com.vn/wp-content/themes/pl_superdong/img/vi_lg.png" alt="" style="padding-left: 5px;" /></a>
+              <li><a href="#"><img src="http://superdong.com.vn/wp-content/themes/pl_superdong/img/vi_lg.png" alt="" style="padding-left: 5px;" /></a>
               </li>
             </ul>
           </div>
         </nav>
-      </div> <!--end menu 1 -->
+      </div> <!--end upper NAVBAR -->
 
-      <div class="row"> <!-- menu 2 -->
-        <nav class="navbar navbar-default navbar-static-top nav-lower">
-          <div class="container-fluid">
+      <!-- lower NAVBAR -->
+      <div class="row" id="lower"> 
+        <nav class="navbar navbar-default">
+          <div class="container-fluid" style="width: 100%;">
 
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"> <span class="sr-only">Toggle navigation</span>
+              <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"> <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -70,17 +76,17 @@
             </div>
 
             <div class="collapse navbar-collapse" id="navbar">
-              <ul class="nav navbar-nav navbar-lower">
-                <li class="nav-item"><a href="#">DỊCH VỤ</a>
+              <ul class="nav navbar-nav" style="margin-left:10px">
+                <li><a href="#">DỊCH VỤ</a>
                 </li>
 
-                <li class="nav-item"><a href="#">HỆ THỐNG BÁN VÉ</a>
+                <li><a href="#">HỆ THỐNG BÁN VÉ</a>
                 </li>
 
-                <li class="nav-item"><a href="#">QUAN HỆ CỔ ĐÔNG</a>
+                <li><a href="#">QUAN HỆ CỔ ĐÔNG</a>
                 </li>
 
-                <li class="nav-item"><a href="#">TIN TỨC</a>
+                <li><a href="#">TIN TỨC</a>
                 </li>
               </ul>
             </div>
@@ -90,32 +96,27 @@
     </div>  <!-- end NAVBAR -->
   </div> <!-- end HEADER -->
 
-    <div class="row"> <!-- SLIDER -->
-      <div class="carousel slide" data-ride="carousel" id="carousel">
 
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel" data-slide-to="1"></li>
-          <li data-target="#carousel" data-slide-to="2"></li>
-        </ol>
+  <!-- SLIDER -->
+  <div class="row" id="slider">
+    <div class="carousel slide" data-ride="carousel" id="carousel">
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
 
-          <div class="item active">
-            <img src="http://superdong.com.vn/wp-content/uploads/2017/07/banner00-1366x630.jpg" alt ="">
-          </div>
+        <div class="item active">
+          <img src="http://superdong.com.vn/wp-content/uploads/2017/07/banner00-1366x630.jpg" alt ="" style="width:100%; height: 100%;">
+        </div>
 
-          <div class="item">
-            <img src="http://superdong.com.vn/wp-content/uploads/2017/06/superdong-banner01-2-1366x630.jpg" alt ="">
-          </div>
+        <div class="item">
+          <img src="http://superdong.com.vn/wp-content/uploads/2017/06/superdong-banner01-2-1366x630.jpg" alt ="" style="width:100%; height: 100%;">
+        </div>
 
-          <div class="item">
-            <img src="http://superdong.com.vn/wp-content/uploads/2017/06/superdong-banner02-2-1366x630.jpg" alt ="">
-          </div>
+        <div class="item">
+          <img src="http://superdong.com.vn/wp-content/uploads/2017/06/superdong-banner02-2-1366x630.jpg" alt ="" style="width:100%; height: 100%;">
+        </div>
 
-        </div> <!-- end Wrapper -->
+      </div> <!-- end Wrapper -->
 
         <!-- Left and right controls -->
         <a class="left carousel-control" href="#carousel" data-slide="prev">
@@ -128,49 +129,36 @@
         </a>
 
       </div>
+      </div>
     </div> <!-- end SLIDER -->
     
-    <div class="row"> <!-- LOCATION btn group -->
-      <div class="btn-group btn-group-lg">
-        <button type="button" class="btn btn-primary">Sóc Trăng</button>
-        <button type="button" class="btn btn-primary">Côn Đảo</button>
-      </div>
+  <!-- FOOTER -->
+  <div class="row" id="footer"> 
 
-      <div class="btn-group btn-group-lg">
-        <button type="button" class="btn btn-primary">Nam Du</button>
-        <button type="button" class="btn btn-primary">Rạch Giá</button>
-        <button type="button" class="btn btn-primary">Phú Quốc</button>
-        <button type="button" class="btn btn-primary">Hà Tiên</button>
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+    </div>
+
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+      <div id="group1" class="btn-group btn-group-lg">
+        <button class="btn btn-primary">Sóc Trăng</button>
+        <button class="btn btn-primary">Côn Đảo</button>
       </div>
     </div>
 
-    <div class="row"> <!-- LOCATION navbar -->
-      <nav class="navbar navbar-default navbar-static-top nav-location">
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse" id="navbar">
-            <ul class="nav navbar-nav navbar-location">
-              <li class="nav-item"><a href="#">Sóc Trăng</a>
-              </li>
+    <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+      <div id="group2" class="btn-group btn-group-lg">
+        <button class="btn btn-primary">Nam Du</button>
 
-              <li class="nav-item"><a href="#">Côn Đảo</a>
-              </li>
+        <button class="btn btn-primary">Rạch Giá</button>
 
-              <li class="nav-item"><a href="#">Nam Du</a>
-              </li>
+        <button class="btn btn-primary">Phú Quốc</button>
 
-              <li class="nav-item"><a href="#">Rạch Giá</a>
-              </li>
+        <button class="btn btn-primary">Hà Tiên</button>
+      </div>
+    </div>
 
-              <li class="nav-item"><a href="#">Phú Quốc</a>
-              </li>
+  </div> <!-- end FOOTER -->
 
-              <li class="nav-item"><a href="#">Hà Tiên</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div> <!-- end LOCATION navbar -->
 </div> <!-- end container -->
 
   <!-- JQUERY-->
