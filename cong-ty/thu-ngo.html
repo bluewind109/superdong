@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- BASIC INFO (title, keywords, description) -->
+  <title>SuperDong - Công Ty</title>
+
+  <!-- LIBRARIES CSS -->
+  <link href="..\css\bootstrap.css" rel="stylesheet">
+  <link href="..\css\bootstrap-theme.css" rel="stylesheet">
+  <link href="..\css\detail-page-style.css" rel="stylesheet" type="text/css">
+  
+  <!-- FONTS -->
+  
+</head>
+<body>
+  <div class="container-fluid" id="main">
+    <!-- HEADER -->
+      <div class="row" id="detail-page-header" style="width: 100%;"> 
+
+        <!-- LOGO -->
+        <div class="hidden-xs hidden-sm col-md-3 col-lg-3" style="padding-left:0px;" id="logo">
+          <a href="../superdong.html"><img src="../img/logo.png" style="width: 140%;height: 150%;"/></a>
+        </div>
+
+        <!-- NAVBAR -->
+        <div class="col-xm-12 col-sm-12 col-md-9 col-lg-9" id="navbar-content"> 
+
+          <!-- upper NAVBAR -->
+          <div class="row" id="upper">
+            <nav class="navbar navbar-default">
+              <div class="container-fluid" style="width: 100%;">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar1, #navbar2" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                  </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbar1">
+                  <ul class="nav navbar-nav">
+                    <li><a href="../superdong.html">Trang chủ</a>
+                    </li>
+
+                    <li><a href="./thu-ngo.html">Công ty</a>
+                    </li>
+
+                    <li><a href="../category/cam-nang-du-lich.html">Cẩm nang du lịch</a>
+                    </li>
+
+                    <li><a href="../lien-he/tuyen-dung.html">Tuyển dụng</a>
+                    </li>
+
+                    <li><a href="../category/thu-vien-anh.html">Hình ảnh</a>
+                    </li>
+
+                    <li><a href="../lien-he/lien-he.html">Liên hệ</a>
+                    </li>
+
+                    <li><a href="./thu-ngo-en.html"><img src="../img/eng_lg.png" alt="EN" /></a>
+                    </li>
+
+                    <li><a href="./thu-ngo.html"><img src="../img/vi_lg.png" alt="VN" style="padding-left: 5px;" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div> <!--end upper NAVBAR -->
+
+          <!-- lower NAVBAR -->
+          <div class="row hidden-xs" id="lower"> 
+            <nav class="navbar navbar-default">
+              <div class="container-fluid" style="width: 100%;">
+
+                <div class="collapse navbar-collapse" id="navbar2">
+                  <ul class="nav navbar-nav"">
+                    <li><a href="../thong-tin/dich-vu.html">DỊCH VỤ</a>
+                    </li>
+
+                    <li><a href="../thong-tin/he-thong-ban-ve.html">HỆ THỐNG BÁN VÉ</a>
+                    </li>
+
+                    <li><a href="../quan-he-co-dong/quan-he-co-dong.html">QUAN HỆ CỔ ĐÔNG</a>
+                    </li>
+
+                    <li><a href="../thong-tin/tin-khuyen-mai.html">TIN TỨC</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div> <!--end menu 2 -->
+        </div>  <!-- end NAVBAR -->
+      </div> <!-- end HEADER -->
+
+    <!-- Background-header -->
+    <div class="row" id="bg-header">
+      <div class="carousel slide" data-ride="carousel" id="carousel">
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+
+          <div class="item active">
+            <img class="img-responsive"  src="../img/superdong-banner01.jpg" alt ="" style="width:100%; height: 100%;">
+          </div>
+
+        </div> <!-- end Wrapper -->
+
+      </div>
+    </div>  <!-- end Background-header -->
+
+    <!-- Detail Page Content -->
+    <div class="row well" id="page-content">
+
+      <!-- LEFT MENU -->
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+        <ul class="nav nav-pills nav-stacked" style="text-align: center;">
+          <li class="active"><a data-toggle="pill" href="#thu-ngo">Thư ngỏ</a></li>
+          <li><a data-toggle="pill" href="#tong-quan">Tổng quan</a></li>
+          <li><a  data-toggle="pill" href="#so-do-to-chuc">Sơ đồ tổ chức</a></li>
+          <li><a data-toggle="pill" href="#doi-ngu">Đội ngũ</a></li>
+          <li><a data-toggle="pill" href="#khach-hang-doi-tac">Khách hàng - Đối tác</a></li>
+          <li><a data-toggle="pill" href="#chinh-sach-chat-luong">Chính sách chất lượng</a></li>
+          <li><a data-toggle="pill" href="#nhan-vien-tieu-bieu">Nhân viên tiêu biểu</a></li>
+          <li><a data-toggle="pill" href="#cac-giai-thuong">Các giải thưởng</a></li>
+          <li><a data-toggle="pill" href="#bao-mat">Bảo mật</a></li>
+          <li><a data-toggle="pill" href="#ban-quyen">Bản quyền</a></li>
+        </ul>
+      </div> <!-- end LEFT MENU -->
+
+
+      <!-- CONTENT -->
+      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 tab-content">
+        
+        <!-- THU NGO -->
+        <div class="container tab-pane fade in active" id="thu-ngo">
+          <h3>Thư ngỏ</h3>
+            <div id="thu-ngo-content">
+              <p style="line-height: 21px; font-family: arial; font-size: 14px; text-align: justify;">Trước hết, Công ty cổ phần tàu cao tốc Superdong Kiên Giang xin gửi đến Quý hành khách lời chào trân trọng cùng lời chúc sức khỏe và thành công.</p>
+              <p style="line-height: 21px; font-family: arial; font-size: 14px; text-align: justify;">Công ty chúng tôi hân hạnh mang đế cho Quý hành khách những dịch vụ tốt nhất trọng lĩnh vực vận tải hành khách theo tuyến Rạch Giá &#8211; Phú Quốc, Hà Tiên &#8211; Phú Quốc, Rạch Giá &#8211; Nam Du. Và hiện nay công ty chúng tôi đã đưa vào hoạt động chính thúc 12 tàu cao tốc với nội thất và trang thiết bị hoàn toàn mới  nhằm phục vụ vận chuyển hành khách từ đất liền sang đảo Phú Quốc và đảo Nam Du.</p>
+              <ul style="list-style-type: disc; font-family: arial; font-size: 14px; text-align: justify;">
+              <li style="line-height: 21px; margin-left: 29px;">Tàu đạt chuẩn quốc tế được đóng mới 100% và nhập khẩu từ Malaysia;</li>
+              <li style="line-height: 21px; margin-left: 29px;">Tốc độ 26-28 hải lý/giờ;</li>
+              <li style="line-height: 21px; margin-left: 29px;">Tải trọng 171-306 khách;</li>
+              <li style="line-height: 21px; margin-left: 29px;">Trọng tải hàng hóa 8 tấn;</li>
+              <li style="line-height: 21px; margin-left: 29px;">Trang trí nội thất hiện đại,sang trọng ,máy lạnh tự động;</li>
+              <li style="line-height: 21px; margin-left: 29px;">Tất cả các khoang đều được trang bị máy lạnh, hệ thống nghe nhạc và xem phim giúp Quý khách thư giãn suốt hành trình. Phục vụ khăn lạnh, nước suối và wifi miễn phí.</li>
+              <li style="line-height: 21px; margin-left: 29px;">Mỗi tàu đều bố trí một quầy mini bar phục vụ thức ăn nhẹ và nước uống.</li>
+              <li style="line-height: 21px; margin-left: 29px;">Công ty chúng tôi cung cấp dịch vụ xe Bus đưa đón hành khách từ Bến Cảng Bãi Vòng đi thị trấn Dương Đông và ngược lại.</li>
+              </ul>
+              <p style="line-height: 21px; font-family: arial; font-size: 14px; text-align: justify;">Tàu Superdong có thể chạy trong gió cấp 7, được trang bị hệ thống cứu sinh ( phao bè, áo phao cá nhân, pháo sáng, thiết bị thông tin &#8230;.) đảm bảo sự an toàn hàng hải cao nhất cho hành khách</p>
+              <p style="line-height: 21px; font-family: arial; font-size: 14px; text-align: justify;">Với phong cách phục vụ chuyên nghiệp, uy tín, chất lượng cùng đội ngũ thuyền viên giàu kinh nghiệm, am hiểu địa lý vùng biển, chắc chắn Quý hành khách sẽ hài lòng nhất khi lựa chọn đồng hành cùng chúng tôi</p>
+              <p style="line-height: 21px; font-family: arial; font-size: 14px; text-align: justify;">Công ty chúng tôi có 12 tàu hoạt động trên tuyến biển <i>Rạch Giá &lt;=&gt; Phú Quốc, Hà Tiên &lt;=&gt; Phú Quốc, Rạch Giá &lt;=&gt; Nam Du. Để nâng cao chất lượng phục vụ cho khách hàng công ty chúng tôi dự kiến sẽ khai trương tuyến Sóc Trăng &lt;=&gt; Côn Đảo vào tháng 05/2017.</i></p>
+              <p style="line-height: 21px; font-family: arial; font-size: 14px; text-align: justify;">Quý khách sẽ có thêm nhiều lựa chọn cho lịch trình đi và về.</p>
+              <p style="line-height: 21px; font-family: arial; font-size: 14px; text-align: justify;">Trân trọng !</p>
+              <p><span style="color: #0977b6; font-weight: bold; margin-top: 18px;">CÔNG TY CỔ PHẦN TÀU CAO TỐC SUPERDONG – KIÊN GIANG</span><br />
+              Địa chỉ: Số 10, Đường 30/4, KP2, Thị trấn Dương Đông, Huyện Phú Quốc, tỉnh Kiên Giang<br />
+              ĐT : (0297) 3980 111<br />
+              Fax : (0297) 3846 180<br />
+              Email : <span style="color: #3366ff;">info@superdong.com.vn</span><br />
+              Web : <span style="color: #3366ff;">www.superdong.com.vn</span></p>
+            </div>
+        </div>  <!-- end THU NGO -->
+
+        <!-- TONG QUAN -->
+        <div class="container tab-pane fade" id="tong-quan">
+          <h3>Tổng quan</h3>
+          <div id="tong-quan-content">
+
+            <!--TABLE 1 -->
+            <div class="row">
+              <div class="table-responsive table-bordered">          
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <th>Mã chứng khoán</th>
+                      <td>SKG</td>
+                    </tr>
+                    <tr>
+                      <th>Tên công ty</th>
+                      <td>Công ty cổ phần Tàu cao tốc Superdong-Kiên Giang</td>
+                    </tr>
+                    <tr>
+                      <th>Tên viết tắt</th>
+                      <td>SUPERDONG FF – (KG) JOINT STOCK COMPANY</td>
+                    </tr>
+                    <tr>
+                      <th>Tên Tiếng Anh</th>
+                      <td>Superdong Fast Ferry Kien Giang Joint Stock Company</td>
+                    </tr>
+                    <tr>
+                      <th>Trụ sở chính</th>
+                      <td>Số 10, đường 30/04, khu phố 2, thị trấn Dương Đông, huyện Phú Quốc, tỉnh Kiên Giang</td>
+                    </tr>
+                    <tr>
+                      <th>Vốn điều lệ</th>
+                      <td>174,748,540,000</td>
+                    </tr>
+                    <tr>
+                      <th>Điện thoại</th>
+                      <td>(0297) 3980 111</td>
+                    </tr>
+                    <tr>
+                      <th>Fax</th>
+                      <td>(0297) 3846 180</td>
+                    </tr>
+                    <tr>
+                      <th>Email</th>
+                      <td>info@superdong.com.vn</td>
+                    </tr>
+                    <tr>
+                      <th>Website</th>
+                      <td>http://www.superdong.com.vn</td>
+                    </tr>
+                    <tr>
+                      <th>Ngành nghề</th>
+                      <td>Hem có</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div> <!-- end TABLE 1 -->
+
+            <br>
+
+            <!--TABLE 2 -->
+            <div class="row">
+              <div class="table-responsive table-bordered">          
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>MST Số giấy phép</th>
+                      <th>Ngày cấp</th>
+                      <th>Nơi cấp</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th>Thành lập</th>
+                      <td></td>
+                      <td>14/11/2007</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th>Đăng ký kinh doanh</th>
+                      <td>561023000003</td>
+                      <td>18/04/2014</td>
+                      <td><b>Ban Quản lý đầu tư phát triển đảo Phú Quốc</b></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div> <!-- end TABLE 2 -->
+
+            <br>
+
+            <!--TABLE 3 -->
+            <div class="row">
+              <div class="table-responsive table-bordered">          
+                <table class="table" id="table-event">
+                  <thead>
+                    <tr>
+                      <th>Năm tháng</th>
+                      <th>Sự kiện tiêu biểu</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>2007</td>
+                      <td id="su-kien">Công ty được thành lập và đi vào hoạt động ngày 14/11/2007 với tên gọi là Công ty TNHH Tàu cao tốc Superdong – Kiên Giang và vốn điều lệ đăng ký ban đầu là 9,6 tỷ đồng. Hoạt động chính của Công ty là vận tải hành khách và hàng hóa ven biển, vận tải hành khách và hàng hóa bằng đường thủy nội địa.</td>
+                    </tr>
+                    <tr>
+                      <td>2010</td>
+                      <td id="su-kien">Ngày 22/01/2010 Công ty chuyển đổi hình thức thành Công ty Cổ phần với tên gọi đầy đủ là Công ty Cổ phần Tàu cao tốc Superdong – Kiên Giang theo giấy chứng nhận đầu tư số 561023000003 cấp lần đầu ngày 14/11/2007 thay đổi lần 03 ngày 22/01/2010 do Ban quản lý đầu tư phát triển đảo Phú Quốc cấp. Vốn điều lệ đăng ký là 90 tỷ đồng.</td>
+                    </tr>
+                    <tr>
+                      <td>2012</td>
+                      <td id="su-kien">Từ ngày 20/12/2012 Công ty đủ điều kiện để trở thành Công ty đại chúng với số lượng cổ đông là 311 người với vốn điều lệ là 174,748,540,000 đồng. Đến ngày 24/06/2013, Công ty đã hoàn tất hồ sơ đăng ký Công ty đại chúng và được Ủy ban chứng khoán Nhà nước chấp thuận chính thức.</td>
+                    </tr>
+                    <tr>
+                      <td>2013</td>
+                      <td id="su-kien">Đại hội đồng cổ đông đã thông qua việc niêm yết chứng khoán tại Sở giao dịch. Dự kiến vào quý II năm 2014, Công ty sẽ hoàn tất thủ tục để đưa cổ phiếu của Công ty chính thức giao dịch tại HOSE.</td>
+
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div> <!-- end TABLE 3 -->
+
+          </div>
+        </div>
+        <!-- end TONG QUAN -->
+
+        <!-- SO DO TO CHUC -->
+        <div class="container tab-pane fade" id="so-do-to-chuc">
+          <h3>Sơ đồ tổ chức</h3>
+          <div id="so-do-to-chuc-content">
+            <p><img class="img-responsive" src="../img/sd.png" alt="" style="width: auto; height: auto;"/></p>
+          </div>
+        </div> <!-- end SO DO TO CHUC -->
+
+        <!-- DOI NGU -->
+        <div class="container tab-pane fade" id="doi-ngu">
+          <h3>Đội Ngũ</h3>
+          <div id="doi-ngu-content">
+            <p>... Đang cập nhật</p>
+          </div>
+        </div> <!-- end DOI NGU -->
+
+        <!-- KHACH HANG DOI TAC -->
+        <div class="container tab-pane fade" id="khach-hang-doi-tac">
+          <h3>Khách hàng - Đối tác</h3>
+          <div id="khach-hang-doi-tac-content">
+            <p>... Đang cập nhật</p>
+          </div>
+        </div> <!-- end KHACH HANG DOI TAC -->
+
+        <!-- CHINH SACH CHAT LUONG -->
+        <div class="container tab-pane fade" id="chinh-sach-chat-luong">
+          <h3>Chính sách chất lượng</h3>
+          <div id="chinh-sach-chat-luong-content">
+            <p>... Đang cập nhật</p>
+          </div>
+        </div> <!-- end CHINH SACH CHAT LUONG-->
+
+        <!-- NHAN VIEN TIEU BIEU -->
+        <div class="container tab-pane fade" id="nhan-vien-tieu-bieu">
+          <h3>Nhân viên tiêu biểu</h3>
+          <div id="nhan-vien-tieu-bieu-content">
+            <p>... Đang cập nhật</p>
+          </div>
+        </div> <!-- end NHAN VIEN TIEU BIEU -->
+
+        <!-- CAC GIAI THUONG -->
+        <div class="container tab-pane fade" id="cac-giai-thuong">
+          <h3>Các giải thưởng</h3>
+          <div id="cac-giai-thuong-content">
+            <p>... Đang cập nhật</p>
+          </div>
+        </div> <!-- end CAC GIAI THUONG -->
+
+        <!-- BAO MAT -->
+        <div class="container tab-pane fade" id="bao-mat">
+          <h3>Bảo mật</h3>
+          <div id="bao-mat-content">
+            <p>... Đang cập nhật</p>
+          </div>
+        </div> <!-- end BAO MAT -->
+
+        <!-- BAN QUYEN -->
+        <div class="container tab-pane fade" id="ban-quyen">
+          <h3>Bản quyền</h3>
+          <div id="ban-quyen-content">
+            <p>... Đang cập nhật</p>
+          </div>
+        </div> <!-- end BAN QUYEN -->        
+            
+      </div> <!-- end CONTENT -->
+
+    </div> <!-- end Detail Page Content -->
+
+    <!-- FOOTER -->
+    <div class="row container-fluid" id="footer">
+      <!-- FOOTER ONE -->
+      <div class="row container-fluid well" id="footer-one">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <h3>Du lịch</h3>
+          <a href="../du-lich/du-lich.html"><img src="../img/img2.png" alt=""/></a>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <h3>Videos</h3>
+          <a href="../category/video.html"><img src="../img/img3.png" alt=""/></a>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <h3>Bản đồ</h3>
+          <a href="../lien-he/ban-do.html"><img src="../img/img4.png" alt=""/></a>
+        </div>
+      </div> <!-- end FOOTER ONE -->
+
+      <!-- FOOTER TWO -->
+      <div class="row container-fluid well" id="footer-two">
+        <h3>Đối tác</h3>
+        <ul>
+         <li><img src="../img/Untitled-10.jpg" class="img-thumbnail"></li>
+         <li><img src="../img/Untitled-9.jpg" class="img-thumbnail"></li>
+         <li><img src="../img/Untitled-7.jpg" class="img-thumbnail"></li>
+         <li><img src="../img/Untitled-6.jpg" class="img-thumbnail"></li>
+         <li><img src="../img/Untitled-4.jpg" class="img-thumbnail"></li>
+         <li><img src="../img/Untitled-3.jpg" class="img-thumbnail"></li>
+        </ul>
+      </div> <!-- end FOOTER TWO -->
+
+      <!-- FOOTER THREE -->
+      <div class="row container well" id="footer-three">
+        <div class ="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <select onchange="window.location.href = $(this).val()">
+
+            <option value="">Liên kết</option>
+
+            <option value="http://google.com">Google</option>
+
+            <option value="http://facebook.com">Facebook</option>
+
+            <option value="http://twitter.com">Twitter</option>
+
+          </select>
+        </div>
+
+        <div class ="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <span>Copyright © 2014 Superdong - All Rights Reserved</span>
+        </div>
+      </div> <!-- end FOOTER THREE -->
+    
+    </div><!-- end FOOTER -->
+
+    
+    
+</div> <!-- end container -->
+
+  <!-- JQUERY-->
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
+
+  <!--COMPILED AND MINIFIED JAVASCRIPT-->
+  <script src="..\js\bootstrap.min.js"></script>
+
+</body>
+</html>

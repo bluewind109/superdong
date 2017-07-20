@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- BASIC INFO (title, keywords, description) -->
+  <title>SuperDong - Cẩm nang du lịch</title>
+
+  <!-- LIBRARIES CSS -->
+  <link href="..\css\bootstrap.css" rel="stylesheet">
+  <link href="..\css\bootstrap-theme.css" rel="stylesheet">
+  <link href="..\css\detail-page-style.css" rel="stylesheet" type="text/css">
+  
+  <!-- FONTS -->
+  
+</head>
+<body>
+  <div class="container-fluid" id="main">
+    <!-- HEADER -->
+      <div class="row" id="detail-page-header" style="width: 100%;"> 
+
+        <!-- LOGO -->
+        <div class="hidden-sm hidden-xs col-md-3 col-lg-3" style="padding-left:0px;" id="logo">
+          <a href="../superdong.html"><img src="../img/logo.png" style="width: 140%;height: 150%;"/></a>
+        </div>
+
+        <!-- NAVBAR -->
+        <div class="col-xm-12 col-sm-12 col-md-9 col-lg-9" id="navbar-content"> 
+
+          <!-- upper NAVBAR -->
+          <div class="row" id="upper">
+            <nav class="navbar navbar-default">
+              <div class="container-fluid" style="width: 100%;">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar1, #navbar2" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                  </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbar1">
+                  <ul class="nav navbar-nav" style="margin-left: 10%;">
+                    <li><a href="../superdong.html">Trang chủ</a>
+                    </li>
+
+                    <li><a href="../cong-ty/thu-ngo.html">Công ty</a>
+                    </li>
+
+                    <li><a href="./cam-nang-du-lich.html">Cẩm nang du lịch</a>
+                    </li>
+
+                    <li><a href="../lien-he/tuyen-dung.html">Tuyển dụng</a>
+                    </li>
+
+                    <li><a href="../thu-vien-anh.html">Hình ảnh</a>
+                    </li>
+
+                    <li><a href="../lien-he/lien-he.html">Liên hệ</a>
+                    </li>
+
+                    <li><a href="./cam-nang-du-lich-en.html"><img src="../img/eng_lg.png" alt="EN" /></a>
+                    </li>
+
+                    <li><a href="./cam-nang-du-lich.html"><img src="../img/vi_lg.png" alt="VN" style="padding-left: 5px;" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div> <!--end upper NAVBAR -->
+
+          <!-- lower NAVBAR -->
+          <div class="row hidden-xs" id="lower"> 
+            <nav class="navbar navbar-default">
+              <div class="container-fluid" style="width: 100%;">
+
+                <div class="collapse navbar-collapse" id="navbar2">
+                  <ul class="nav navbar-nav">
+                    <li><a href="../thong-tin/dich-vu.html">DỊCH VỤ</a>
+                    </li>
+
+                    <li><a href="../thong-tin/he-thong-ban-ve.html">HỆ THỐNG BÁN VÉ</a>
+                    </li>
+
+                    <li><a href="../quan-he-co-dong/quan-he-co-dong.html">QUAN HỆ CỔ ĐÔNG</a>
+                    </li>
+
+                    <li><a href="../thong-tin/tin-khuyen-mai.html">TIN TỨC</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div> <!--end menu 2 -->
+        </div>  <!-- end NAVBAR -->
+      </div> <!-- end HEADER -->
+
+    <!-- Background-header -->
+    <div class="row" id="bg-header">
+      <div class="carousel slide" data-ride="carousel" id="carousel">
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+
+          <div class="item active">
+            <img class="img-responsive" src="../img/superdong-banner01.jpg" alt ="" style="width:100%; height: 100%;">
+          </div>
+
+        </div> <!-- end Wrapper -->
+
+      </div>
+    </div>  <!-- end Background-header -->
+
+    <!-- Detail Page Content -->
+    <div class="row well" id="page-content">
+
+      <!-- LEFT MENU -->
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+        <div class="row">
+        <ul class="nav nav-pills nav-stacked" style="text-align: center;">
+          <li class="active"><a data-toggle="pill" href="#nha-hang">Nhà hàng</a></li>
+          <li><a data-toggle="pill" href="#khach-san">Khách sạn</a></li>
+          <li><a  data-toggle="pill" href="#thong-tin-can-biet">Thông tin cần biết</a></li>
+        </ul>
+        </div>
+
+        <!-- FEEDBACK -->
+        <div class="row container-fluid" id="survey-form">
+          <div class="panel-group">
+            <div class="panel-heading">
+              <h4 class="panel-title" style="text-align: center; color: #fff; background-color: rgb(30, 100, 200);">Ý kiến khách hàng</h4>
+            </div>
+
+            <div class="panel-body">
+              <form action="/category/thong-tin-can-biet/#wpcf7-f562-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                <div class="form-group">
+                  <label for="rating">Bạn cảm thấy thế nào về phong cách phục vụ của chúng tôi?</label>
+                  <label><input type="radio" name="comment" value="good" checked>Tốt</label><br>
+                  <label><input type="radio" name="comment" value="decent">Khá</label><br>
+                  <label><input type="radio" name="comment" value="average">Trung bình</label><br>
+                  <label><input type="radio" name="comment" value="bad">Kém</label>
+                </div>
+                <div class="form-group">
+                  <label for="comment">Ý kiến khác</label>
+                  <textarea class="form-control" name="message" rows="8" cols="20"></textarea>
+                </div>
+                <button type="submit" class="btn btn-default">Gửi</button>
+              </form>
+            </div>
+          </div>
+        </div> <!-- end FEEDBACK -->
+      </div> <!-- end LEFT MENU -->
+
+
+      <!-- CONTENT -->
+      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 tab-content">
+        
+        <!-- NHA HANG -->
+        <div class="container tab-pane fade in active" id="nha-hang">
+          <h3>Nhà hàng</h3>
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" href="#collapse1">Quán ăn Vườn Táo</a>
+                </h4>
+              </div>
+              <div class="panel-body"><small>29/05/2014 08:38</small></div>
+              <div id="collapse1" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="container-fluid">
+                    <p style="text-align: justify;">Từ thị trấn Dương Đông, rời sân bay Phú Quốc bạn đi dọc bờ biển theo hướng nam (đường đi Dương Tơ) khoảng 5,5km thì đến Vườn Táo. Hoặc nếu bạn đến bằng đường thuỷ thì từ cảng An Thới bạn đi lên hướng Bắc, rẽ trái sang hướng đi Dương Tơ khoảng 25km (tính từ An Thới).</p>
+                    <p style="text-align: center;"><a href="http://superdong.com.vn/wp-content/uploads/2014/05/vuontao.jpg"><img class="alignnone size-medium wp-image-311" src="http://superdong.com.vn/wp-content/uploads/2014/05/vuontao-300x200.jpg" alt="vuontao" width="300" height="200" /></a></p>
+                    <p style="text-align: justify;">Hiện nay rất nhiều hãng lữ hành khắp nước đã đưa Vườn Táo vào chương trình tham quan Phú Quốc. Nhờ vị trí thuận tiện (bên bờ biển, gần thị trấn và không quá xa các điểm tham quan khắp đảo, nên Vườn Táo được chọn làm nơi dừng chân ăn uống cho du khách.</p>
+                    <p style="text-align: justify;">Ẩm thực là dịch vụ chính của Vườn Táo kể từ ngày chúng tôi được du khách đầu tiên ghé chân.</p>
+                    <p style="text-align: justify;">Cũng như mọi vùng biển khác, hải sản là nguyên liệu chính cho hầu hết các món ăn của dân xứ đảo. Tuy nhiên chúng tôi được thiên nhiên ban tặng những sản vật có hương vị riêng chỉ có tại đảo, ngay cả con cá cơm thông thường tại đây lại có một mùi hương riêng để tạo nên danh tiếng của nước mắm Phú Quốc.</p>
+                    <p style="text-align: justify;">Bên cạnh những món ăn có mặt khắp đảo, Vườn Táo giới thiệu một thực đơn mang hương vị chỉ có tại vườn, đây chính là sự lựa chọn của biết bao đoàn khách sau nhiều năm phục vụ mà chúng tôi được hân hạnh đón tiếp.</p>
+                    <p style="text-align: justify;">Địa chỉ: Ấp Cửa Lấp – Xã Dương Tơ – Phú Quốc – Kiên Giang</p>
+                    <p><span style="color: #0000ff;">nguồn trích:http://www.dulichphuquoc.com/</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" href="#collapse2">Quán ăn Lê Giang</a>
+                </h4>
+              </div>
+              <div class="panel-body"><small>29/05/2014 08:37</small></div>
+              <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="container-fluid">
+                    <p style="text-align: justify;">Quán Lê Giang được thiết kế theo kiểu giản dị nhưng thoáng mát. Quán có bán điểm ăn sáng với món hủ tiếu tôm mực, bánh canh ghẹ. Vào buổi trưa thì quán có phục vụ cơm với nhiều món hấp dẫn. Phong cách phục vụ khá tốt.</p>
+                    <p style="text-align: center;"><a href="http://superdong.com.vn/wp-content/uploads/2014/05/vuontao.jpg"><img class="alignnone size-medium wp-image-311" src="hhttp://superdong.com.vn/wp-content/uploads/2014/05/quanan1-300x199.jpg"" alt="legiang" width="300" height="200" /></a></p>
+                    <p style="text-align: justify;">Địa chỉ:289 Trần Hưng Đạo, Dương Đông, Phú Quốc, Kiên Giang</p>
+                    <p><span style="color: #0000ff;">nguồn trích:http://www.dulichphuquoc.com/</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" href="#collapse3">Nhà hàng Zen</a>
+                </h4>
+              </div>
+              <div class="panel-body"><small>29/05/2014 08:36</small></div>
+              <div id="collapse3" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="container-fluid">
+                    <p style="text-align: justify;">Nhà hàng thiết kế rất đẹp, hài hòa, khi buổi trưa thật mát mẻ với nước suối nhân tạo và cây xanh tinh tế trong khi lại rất sang trọng với ánh đèn vàng nhạt hòa cùng màu sắc thân thiện của bàn ghế gỗ. Nhân viên phục vụ chuyên nghiệp, kể cả cách phục vụ rượu vang. Dụng cụ ăn vệ sinh. Có bể cá nhằm đáp ứng nhu cầu ăn cá tươi.</p>
+                    <p style="text-align: center;"><a href="http://superdong.com.vn/wp-content/uploads/2014/05/vuontao.jpg"><img class="alignnone size-medium wp-image-311" src="http://superdong.com.vn/wp-content/uploads/2014/05/nhahangzen-300x240.jpg"" alt="nhahangzen" width="300" height="200" /></a></p>
+                    <p style="text-align: justify;"> Thực đơn chủ đạo là các món hải sản với 2 lựa chọn :</p>
+                    <p style="text-align: justify;">+ Gọi theo dĩa với các món :gỏi hải sản, cơm hải sản…giá khá rẻ 35-45/dĩa.</p>
+                    <p style="text-align: justify;">+ Gọi theo phần hoặc con : cá mú, cá mập, cá bớp, tôm, cua ghẹ, …</p>
+                    <p style="text-align: justify;">Ngoài các resort ra thì có thể nói nhà hàng ZEN là nhất tại Dương Đông tính về độ sang trọng cũng như chất lượng phục vụ. Không dừng ở đó, hiện tại ông “chủ” nhà hàng ZEN đang mời nghệ nhân từ SG xuống để tạo hình thác nhân tạo quy mô lớn dựa theo vách núi tự nhiên phía sau cách bếp của nhà hànghiện tại là 30m, nghĩa là sẽ có một quy mô hơn, chiều sâu hơn khi ông “chủ” muốn rằng khách ngồi ăn sẽ nghe được tiếng nước chảy do suối “nửa nhân tạo” này, đây quả là một bức tranh sơn thủy thực sự của làng ẩm thực Phú Quốc</p>
+                    <p style="text-align: justify;">Địa chỉ: đường 30/4 thị trấn Dương Đông, Phú Quốc.</p>
+                    <p><span style="color: #0000ff;">Nguồn trích:http://www.dulichphuquoc.com/</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" href="#collapse4">Nhà hàng Xuân Thạnh</a>
+                </h4>
+              </div>
+              <div class="panel-body"><small>229/05/2014 08:35</small></div>
+              <div id="collapse4" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="container-fluid">
+                    <p style="text-align: justify;">Nhà hàng Xuân Thanh nằm ở sát bờ biển nên thực khách có thể vừa thưởng thức món ăn vừa ngắm cảnh biển. Nhà hàng chuyên phục vụ các món ăn đặc sản miền biển, nên món ăn ở đây rất đa dạng và phong phú. Các món ăn ngon của nhà hàng: ốc, cua, ghẹ, tôm, cá chình,… Nhà hàng còn phục vụ điểm tâm sáng.</p>
+                    <p style="text-align: center;"><a href="http://superdong.com.vn/wp-content/uploads/2014/05/vuontao.jpg"><img class="alignnone size-medium wp-image-311" src="http://superdong.com.vn/wp-content/uploads/2014/05/nhahang3-300x199.jpg" alt="xuanthanh" width="300" height="200" /></a></p>
+                    <p style="text-align: justify;">Địa chỉ:20 Trần Hầu, P. Đông Hồ, TX. Hà Tiên, Tỉnh Kiên Giang.</p>
+                    <p><span style="color: #0000ff;">Nguồn trích:http://www.dulichphuquoc.com/</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" href="#collapse5">Nhà Hàng Trùng Dươngo</a>
+                </h4>
+              </div>
+              <div class="panel-body"><small>29/05/2014 08:33</small></div>
+              <div id="collapse5" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="container-fluid">
+                    <p style="text-align: justify;">Nhà hàng Trùng Dương tọa lạc ngay trung tâm thị trấn Dương Đông, Phú Quốc. Nhà hàng có không gian thóang mát và không gian riêng biệt cho từng nhóm khách, phục vụ chuyên nghiệp với nhiều món ăn ngon. Thực khách đến đây sẻ cảm thấy thoải mái với sự phục vụ tận tình của nhân viên nhà hàng.</p>
+                    <p style="text-align: center;"><a href="http://superdong.com.vn/wp-content/uploads/2014/05/vuontao.jpg"><img class="alignnone size-medium wp-image-311" src="http://superdong.com.vn/wp-content/uploads/2014/05/trung-duong.jpg" alt="trungduong" width="300" height="200" /></a></p>
+                    <p style="text-align: justify;">Địa chỉ: Khu phố 1 đường 30 tháng 4, TT Dương Đông, Huyện Phú Quốc, Tỉnh Kiên Giang</p>
+                    <p><span style="color: #0000ff;">Nguồn trích:http://www.dulichphuquoc.com/</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" href="#collapse6">Nhà hàng Anh Vũ</a>
+                </h4>
+              </div>
+              <div class="panel-body"><small>29/05/2014 08:31</small></div>
+              <div id="collapse6" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="container-fluid">
+                    <p style="text-align: justify;">Nhà hàng Anh Vũ có không gian rộng, có khu vực sân thượng thoáng mát. Chuyên phục vụ các món ăn đặc sản Phú Quốc rất đặc biệt bởi đội ngũ đầu bếp nhiều kinh nghiệm Nhà hàng còn có phục vụ điểm tâm sáng với thực đơn khá hấp dẫn như: hủ tiếu tôm mực, bánh canh hải sản… Không gian rộng rãi, món ăn ngon, đem lại cho bạn những phút giây thật sự thoải mái.</p>
+                    <p style="text-align: center;"><a href="http://superdong.com.vn/wp-content/uploads/2014/05/vuontao.jpg"><img class="alignnone size-medium wp-image-311" src="hhttp://superdong.com.vn/wp-content/uploads/2014/05/anh-vu.jpg" alt="anhvu" width="300" height="200" /></a></p>
+                    <p style="text-align: justify;">Địa chỉ: 77 Nguyễn Trung Trực, Khu phố 4, Dương Đông, Phú Quốc, Kiên Giang</p>
+                    <p><span style="color: #0000ff;">Nguồn trích:http://www.dulichphuquoc.com/</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        </div>  <!-- end NHA HANG -->
+
+        <!-- KHACH SAN -->
+        <div class="container tab-pane fade" id="khach-san">
+          <h3>Khách sạn</h3>
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" href="#collapse7">Resort Sasco Blue Lagoon</a>
+                </h4>
+              </div>
+              <div class="panel-body"><small>29/05/2014 09:00
+</small></div>
+              <div id="collapse7" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="container-fluid">
+                    <p style="text-align: justify;">Tọa lạc tại số 64 trên đường Trần Hưng Đạo, nằm sát cạnh bãi biển Dương Đông, trung tâm của đảo Phú Quốc. Khoảng 7 phút bằng taxi tính từ sân bay Phú Quốc, 40 phút từ bến tàu An Thới. Có các chuyến bay hàng ngày nối liền đảo với Tp.HCM và Rạch Giá. Phú Quốc cách Rạch Giá 120km đường biển.</p>
+                    <p style="text-align: center;"><a href="http://superdong.com.vn/wp-content/uploads/2014/05/sasco-blue-lagoon-resort-11.jpg"><img class="alignnone size-medium wp-image-337" src="http://superdong.com.vn/wp-content/uploads/2014/05/sasco-blue-lagoon-resort-11-300x199.jpg" alt="sasco-blue-lagoon-resort-11" width="300" height="199" /></a></p>
+                    <p style="text-align: justify;">
+                    <p style="text-align: justify;">&#8211; Khu nghỉ Sasco Blue Lagoon nằm trên diện tích 2 hectar với 100 mét bãi biển riêng trải dài. Đó là nơi khung cảnh thanh bình gặp gỡ với sự yên ả của bãi biển nhiệt đới, cát trắng và không khí trong lành</p>
+                    <p style="text-align: justify;">&#8211; Đến với một resort lý tưởng mang cái tên lãng mạn “Blue Lagoon” (Eo Biển Xanh), gợi nhắc về bộ phim của đạo diễn Randal cực kỳ nổi tiếng trong những năm 80. Lấy cảm hứng từ bộ phim này, resort chúng tôi sẽ mang đến cho quý khách những trải nghiệm tuyệt vời không thể nào quên. Đó là nơi khung cảnh thanh bình gặp gỡ với sự yên ả của bãi biển nhiệt đới, cát trắng và không khí trong lành.</p>
+                    <p style="text-align: justify;">&#8211; Đến với SASCO Blue Lagoon quý khách sẽ được cung cấp các dịch vụ tiêu chuẩn đẳng cấp quốc tế 4 sao, với những tác phẩm ẩm thực độc đáo và những tiện nghi sang trọng khác biệt giúp quý khách đắm chìm trong cảm giác “It’s relax time!” (Đây là lúc thư giãn!). Đối với một số người, đây sẽ là nơi để nghiêm nghưỡng những vẻ đẹp nguyên thủy của đảo ngọc Phú Quốc. Với một số khác, đây là một nơi dành cho sự thư giãn hòan tòan, lẩn tránh những vất vả đời thường. Nhưng tất cả đều sẽ thừa nhận, đây là một thiên đường trần gian không phải ai cũng có dịp tìm thấy!</p>
+                    <p style="text-align: justify;">&#8211; Hãy đến với SASCO Blue Lagoon để tìm những khỏanh khắc khó quên! <strong>Vị trí </strong><br />
+                    Tọa lạc tại số 64 trên đường Trần Hưng Đạo, nằm sát cạnh bãi biển Dương Đông, trung tâm của đảo Phú Quốc. Resort nằm trên diện tích 2 hectar với 100 mét bãi biển riêng trải dài.</p>
+                    <p style="text-align: justify;">&#8211; Khoảng 7 phút bằng taxi tính từ sân bay Phú Quốc, 40 phút từ bến tàu An Thới. Có các chuyến bay hàng ngày nối liền đảo với Tp.HCM và Rạch Giá. Phú Quốc cách Rạch Giá 120km đường biển. Có tàu cao tốc hàng ngày đi đến Rạch Giá và Hà Tiên. Khách được đón tại sân bay bằng xe đưa đón của resort.</p>
+                    <p><strong>Đường hàng không:</strong>: Hàng ngày có các chuyến bay từ TP.HCM (3-5 chuyến/ngày) và  từ Rạch Giá (1 chuyến/ngày).</p>
+                    <p><strong>Đường biển</strong>: Tàu cao tốc từ Rạch Giá đến Nam An Thới (2 giờ 30 phút, 4 chuyến/ngày). Từ Ha Tiên đi Nam An Thới (1 giờ 14 phút, 1 chuyến/ngày)</p>
+                    <p>&nbsp;</p>
+                    <p style="text-align: center;"><a href="http://superdong.com.vn/wp-content/uploads/2014/05/blu1.jpg"><img class="alignnone wp-image-338 size-full" src="http://superdong.com.vn/wp-content/uploads/2014/05/blu1.jpg" alt="blu1" width="450" height="300" /></a></p>
+                    <p style="text-align: center;">Khu vực phòng khách của resort</p>
+                    <p style="text-align: center;"><a href="http://superdong.com.vn/wp-content/uploads/2014/05/blu2.jpg"><img class="alignnone wp-image-339 size-full" src="http://superdong.com.vn/wp-content/uploads/2014/05/blu2.jpg" alt="blu2" width="450" height="300" /></a></p>
+                    <p style="text-align: center;">Nhà nghỉ hướng ra biển</p>
+                    <p style="text-align: center;"><a href="http://superdong.com.vn/wp-content/uploads/2014/05/blu3.jpg"><img class="alignnone wp-image-340 size-full" src="http://superdong.com.vn/wp-content/uploads/2014/05/blu3.jpg" alt="blu3" width="452" height="302" /></a></p>
+                    <p style="text-align: center;">Nội thất trong phòng ngủ</p>
+                    <p>&nbsp;</p>
+                    <p><strong>Add:</strong> 64 Tran Hung Dao St Duong Dong Town, Phu Quoc Island, Kien Giang, Vietnam<br />
+                    Tel: <span class="skype_pnh_print_container">(84-77) 3994499</span><span class="skype_pnh_container" dir="ltr"><span class="skype_pnh_mark"> begin_of_the_skype_highlighting</span> <span class="skype_pnh_highlighting_inactive_common" dir="ltr" title="以"><span class="skype_pnh_left_span">  </span><span class="skype_pnh_dropart_span" title="Skype行動"><span class="skype_pnh_dropart_flag_span" style="background-position: -4659px 1px;"><br />
+                    </span>   </span><span class="skype_pnh_textarea_span"><span class="skype_pnh_text_span">  (84-77) 3994499</span></span><span class="skype_pnh_right_span"> </span></span><span class="skype_pnh_mark">end_of_the_skype_highlighting</span></span><br />
+                    Fax: (84-77) 3994099</p>
+                    <p><strong>E:</strong><a href="mailto:info@sasco-bluelagoon-resort.com"> info@sasco-bluelagoon-resort.com</a><br />
+                    <a href="http://www.sasco-bluelagoon-resort.com/">www.sasco-bluelagoon-resort.com </a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" href="#collapse8">Khách sạn Sài Gòn – Phú Quốc</a>
+                </h4>
+              </div>
+              <div class="panel-body"><small>29/05/2014 08:50</small></div>
+              <div id="collapse8" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="container-fluid">
+                    <p style="text-align: justify;">DỊCH VỤ KHÁC BIỆT: Quầy lưu niệm – bác sỹ &#8211; wifi – đưa đón sân bay – dịch vụ 24/24 &#8211; business center &#8211; ATM – bán vé máy bay và vé tàu – hồ bơi &#8211; phòng chơi trẻ em &#8211; karaoke &#8211; quần vợt – tập gôn &#8211; thể dục nhịp điệu &#8211; bi sắt &#8211; Xe đạp &#8211; cờ vua &#8211; bóng bàn &#8211; bi da &#8211; thể dục dụng cụ &#8211; xe đạp nước &#8211; xuồng kayak &#8211; thuyền buồm &#8211; Trò chơi điện tử có thưởng (sắp khai trương).</p>
+                    <p style="text-align: justify;"><strong>THÔNG TIN CHUNG: </strong>Khách quốc tế nhập cảnh đảo Phú Quốc được miễn thị thực với thời gian tạm trú không quá 15 ngày hoặc vào một cửa khẩu quốc tế của Việt Nam, rồi chuyển tiếp đi đảo Phú Quốc cũng được miễn thị thực theo quy chế này. Sân bay quốc tế khai trương 2012. Tiền tệ: Đồng. Khí hậu: nhiệt đới với thời tiết khô từ Tháng 11 &#8211; Tháng 6; mùa mưa, từ tháng 7 &#8211; tháng 10. Nhiệt độ bình quân từ 250C đến 280C (770F &#8211; 820F). </p>
+                    <p style="text-align: center;"><a href="http://superdong.com.vn/wp-content/uploads/2014/05/vuontao.jpg"><img class="alignnone size-medium wp-image-311" src="http://superdong.com.vn/wp-content/uploads/2014/05/phu-quoc.jpg" alt="phu quoc" width="300" height="200" /></a></p>
+                    <p style="text-align: justify;">Trải dài trên diện tích 3,4 hecta, Saigon-Phuquoc là khu nghỉ dưỡng 4 sao cao cấp bên bờ biển phía Tây, gồm 100 bungalows và villas (có phòng ngủ, sofa giường, phòng khách, quầy rượu chung không gian với phòng ăn và bếp). Khu nghỉ dưỡng ẩn mình dưới rừng dừa và hoa rực rỡ. Từ ban công phòng ngủ, có thể ngắm hoàng hôn trên vịnh Thái Lan.</p>
+                    <p><span style="font-size: 9pt;"><strong>&#8211; NHÀ HÀNG &amp; BAR RƯỢU: </strong>03 nhà hàng và 02 quầy bar. Có thể ngắm hoàng hôn và thưởng thức tiệc buffet cocktail tại quầy bar, tiệc buffet hải sản nướng trên bãi biển.<br />
+                    </span></p>
+                    <p><span style="font-size: 9pt;"><strong>&#8211; LÀM ĐẸP &amp; TRỊ LIỆU: </strong>Mát-xa toàn thân và chân, đắp trái cây; Đắp sáp và làm đẹp. </span></p>
+                    <p><span style="font-size: 9pt;"><strong>&#8211; 24 DỊCH VỤ KHÁC BIỆT: </strong>Quầy lưu niệm – bác sỹ &#8211; wifi – đưa đón sân bay – dịch vụ 24/24 &#8211; business center &#8211; ATM – bán vé máy bay và vé tàu – hồ bơi &#8211; phòng chơi trẻ em &#8211; karaoke &#8211; quần vợt – tập gôn &#8211; thể dục nhịp điệu &#8211; bi sắt &#8211; Xe đạp &#8211; cờ vua &#8211; bóng bàn &#8211; bi da &#8211; thể dục dụng cụ &#8211; xe đạp nước &#8211; xuồng kayak &#8211; thuyền buồm &#8211; Trò chơi điện tử có thưởng (sắp khai trương). </span></p>
+                    <p><strong><span style="font-size: 9pt;">&#8211; THAM QUAN: </span></strong><span style="font-size: 9pt;">Hoạt động: câu cá, thẻ mực &#8211; Ngắm san hô bằng bình hơi &#8211; Hướng dẫn nấu ăn; Tham quan: làng chài &#8211; ngọc trai &#8211; vườn tiêu. </span></p>
+                    <p><span style="font-size: 9pt;"><strong>&#8211; VẬN CHUYỂN: </strong>Từ sân bay Tân Sơn Nhất: 300km, 60 phút bay bằng ATR 72, 10 chuyến bay mỗi ngày. Từ sân bay Rạch Giá 131km, 30 phút bay bằng máy bay ATR 72, 02 chuyến bay mỗi ngày. Từ cảng Rạch Giá: 120km, 150 phút đi tàu cao tốc, 06 chuyến mỗi ngày. </span></p>
+                    <p><span style="font-size: 9pt;"><strong>&#8211; KHÁC: </strong>Đảo Phú Quốc – Miễn thị thực nhập cảnh &#8211; Say đắm nơi thiên đường rực nắng &#8211; Khu nghỉ dưỡng 4 sao cao cấp nhất Phú Quốc – Việt Nam – Vẻ đẹp tìm ẩn </span></p>
+                    <p>&nbsp;</p>
+                    <div align="left"><span style="font-size: 9pt;"><span style="font-size: 18pt; color: #336699;">Địa chỉ liên hệ</span></span></div>
+                    <div align="left"></div>
+                    <div class="text" align="left"><strong><span class="text1">SAIGON PHU QUOC RESORT (Head Office)</span></strong></div>
+                    <div class="text" align="left">
+                      <ul>
+                        <li>
+                          <p style="margin-top: 3px; margin-bottom: 3px;">Address: 01 Tran Hung Dao Str., PhuQuoc Island, Vietnam</p>
+                        </li>
+                        <li>
+                          <p style="margin-top: 3px; margin-bottom: 3px;">Tel: (84.77) 3846999 &#8211; 3846510 &#8211; 3848542 ·</p>
+                        </li>
+                        <li>
+                          <p style="margin-top: 3px; margin-bottom: 3px;">Fax: (84.77) 3847163 ·</p>
+                        </li>
+                        <li>
+                          <p style="margin-top: 3px; margin-bottom: 3px;">Email: phuquocsales@hcm.vnn.vn (Sales Department) sgphuquocresort@hcm.vnn.vn (Reservation Department)</p>
+                        </li>
+                        <li>
+                          <p style="margin-top: 3px; margin-bottom: 3px;">Website:</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <blockquote>
+                      <p style="margin-top: 3px; margin-bottom: 3px;" align="left"><a style="text-decoration: none;" href="http://www.sgphuquocresort.com.vn/">www.sgphuquocresort.com.vn</a></p>
+                      <p style="margin-top: 3px; margin-bottom: 3px;" align="left"><a style="text-decoration: none;" href="http://www.vietnamphuquoc.com/">www.vietnamphuquoc.com</a></p>
+                      <p style="margin-top: 3px; margin-bottom: 3px;" align="left"><a style="text-decoration: none;" href="http://www.phuquoc.info/">www.phuquoc.info</a></p>
+                      <p style="margin-top: 3px; margin-bottom: 3px;" align="left"><a style="text-decoration: none;" href="http://www.phuquocresort.ru/">www.phuquocresort.ru</a></p>
+                      <p style="margin-top: 3px; margin-bottom: 3px;" align="left"><a style="text-decoration: none;" href="http://www.saigonphuquoc.ru/">www.saigonphuquoc.ru</a></p>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- end KHACH SAN -->
+
+        <!-- THONG TIN CAN BIET -->
+        <div class="container tab-pane fade" id="thong-tin-can-biet">
+          <h3>Thông tin cần biết</h3>
+          <div id="thong-tin-can-biet-content">
+            <p>... Đang cập nhật</p>
+          </div>
+        </div> <!-- end THONG TIN CAN BIET -->
+            
+      </div> <!-- end CONTENT -->
+
+    </div> <!-- end Detail Page Content -->
+
+    <!-- FOOTER -->
+    <div class="row container-fluid" id="footer">
+      <!-- FOOTER ONE -->
+      <div class="row container-fluid well" id="footer-one">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <h3>Du lịch</h3>
+          <a href="../du-lich/du-lich.html"><img src="../img/img2.png" alt=""/></a>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <h3>Videos</h3>
+          <a href="./video.html"><img src="../img/img3.png" alt=""/></a>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <h3>Bản đồ</h3>
+          <a href="../lien-he/ban-do.html"><img src="../img/img4.png" alt=""/></a>
+        </div>
+      </div> <!-- end FOOTER ONE -->
+
+      <!-- FOOTER TWO -->
+      <div class="row container-fluid well" id="footer-two">
+        <h3>Đối tác</h3>
+        <ul>
+         <li><img src="../img/Untitled-10.jpg" class="img-thumbnail"></li>
+         <li><img src="../img/Untitled-9.jpg" class="img-thumbnail"></li>
+         <li><img src="../img/Untitled-7.jpg" class="img-thumbnail"></li>
+         <li><img src="../img/Untitled-6.jpg" class="img-thumbnail"></li>
+         <li><img src="../img/Untitled-4.jpg" class="img-thumbnail"></li>
+         <li><img src="../img/Untitled-3.jpg" class="img-thumbnail"></li>
+        </ul>
+      </div> <!-- end FOOTER TWO -->
+
+      <!-- FOOTER THREE -->
+      <div class="row container well" id="footer-three">
+        <div class ="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <select onchange="window.location.href = $(this).val()">
+
+            <option value="">Liên kết</option>
+
+            <option value="http://google.com">Google</option>
+
+            <option value="http://facebook.com">Facebook</option>
+
+            <option value="http://twitter.com">Twitter</option>
+
+          </select>
+        </div>
+
+        <div class ="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <span>Copyright © 2014 Superdong - All Rights Reserved</span>
+        </div>
+      </div> <!-- end FOOTER THREE -->
+    
+    </div><!-- end FOOTER -->
+
+    
+    
+
+
+
+  </div>
+  
+  <!-- JQUERY-->
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
+
+  <!--COMPILED AND MINIFIED JAVASCRIPT-->
+  <script src="..\js\bootstrap.min.js"></script>
+
+</body>
+</html>
